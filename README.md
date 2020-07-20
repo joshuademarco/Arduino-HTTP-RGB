@@ -1,5 +1,5 @@
 # Arduino-HTTP-RGB
-The files "" and "arduino_secrets.h" enable to receive and process HTTP POST's containing RGB data. I programmed this code in combination with WS2812B / 2M / 60P LED strips. A full documentation and project description can be found here: (coming soon...)
+The files `WebServer.ino` and `arduino_secrets.h` enable to receive and process HTTP POST's containing RGB data. I programmed this code in combination with WS2812B / 2M / 60P LED strips. A full documentation and project description can be found here: (coming soon...)
 The code is compatible with [Homebridge](https://homebridge.io/).
 
 ## What am I using?
