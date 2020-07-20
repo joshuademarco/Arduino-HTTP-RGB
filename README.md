@@ -8,6 +8,7 @@ The code is compatible with [Homebridge](https://homebridge.io/).
 
 ## How should the POST look like?
 The Header doesn't have any influence on any function. So basically every METHOD could be sent as long as it contains the information in the BODY / DATA.
+In Homebridge, find a plugin that enables u to send HTTP. Something like this worked fine [homebridge-http-switch-unlimited](https://github.com/downloard/homebridge-http-switch-unlimited). For testing purposes u can use easy tools like **curl**. Ur command could look like this: `curl 192.168.x.x -X POST -d '{"state":"on","r":1,"g":0,"b":20}' --verbose`
 
 **Example**
 ```
