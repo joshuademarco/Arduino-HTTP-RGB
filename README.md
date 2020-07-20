@@ -32,3 +32,5 @@ Once all is set up and workign fine, send a POST to the Arduino's IP. the POST m
 
 ## Why turn the LED off with state and not with RGB = 0  
 The LED strip is sensitive to DATA and setting the RGB to 0 will not turn it off correctly. There is a `clear()` function which will be called with `"state"="off"`.  
+
+### Any improvement suggestions? Feel free to write me 
